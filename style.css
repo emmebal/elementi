@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600', 'https://fonts.googleapis.com/css?family=Harmattan', 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
 body {
-    background-color: grey;
-    color: white;
+    background-color: #ffcccc;
+    color: #ff0000;
 }
 h1 {
   width: 659.5px;
@@ -8,11 +9,10 @@ h1 {
   font-weight: normal;
   margin: 0 auto 20px;
   text-align: center;
-  letter-spacing: .05em;
-  font-family: 'Neuzeit Grotesk Bold', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   border-bottom-width: thin;
   border-bottom-style: solid;
-  border-bottom-color: white;
+  border-bottom-color: #ff0000;
 }
 h2 {
   font-size: 1em;
@@ -20,11 +20,33 @@ h2 {
   font-weight: normal;
   margin: 0 auto 20px;
   text-align: center;
-  letter-spacing: .05em;
-  font-family: 'Neuzeit Grotesk Bold', sans-serif
+  font-family: 'Harmattan', sans-serif;
 }
 p {
   font-size: 1em;
-  font-family: 'RomainText-Regular', serif;
+  font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 23px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff0000;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #ffcccc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Harmattan', sans-serif;
+    transition: 1s;
+}
+li a:hover {
+    background-color: #ff1a53;
+    transition: 1s;
 }
