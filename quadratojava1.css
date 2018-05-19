@@ -1,0 +1,59 @@
+body {
+    background-color: #ffd0cc;
+    color: #ff0000;
+}
+#quadrato {
+  height: 33vh;
+  width: 33vh;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.rotate {
+  animation: rotate 0.5s forwards;
+}
+@keyframes rotate {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(-225deg);
+  }
+}
+.on {
+  height: 16vh;
+  width: 16vh;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.off {
+  height: 0vh;
+  width: 0vh;
+}
+.orario {
+  animation: orario 1s infinite;
+}
+.antiorario {
+  animation: antiorario 1s infinite;
+}
+@keyframes orario {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes antiorario {
+  from{
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}

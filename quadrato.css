@@ -1,0 +1,78 @@
+body {
+  background-color: #ffd0cc;
+  color: #ff0000;
+}
+#quadrato {
+
+  width: 60px;
+  height: 60px;
+  background-color: #ff0000;
+  position:absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+.tr {
+  animation: move1 2s forwards;
+}
+@keyframes move1 {
+  from { background-color: #ff0000;
+    transform: translate(-50%, -50%);
+  position:absolute;
+  top: 30%;
+  left: 30%;}
+  to{ background-color: #ff667d;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    position:absolute;
+  top: 30%;
+  left: 70%;}
+}
+.br {
+  animation: move2 2s forwards;
+}
+@keyframes move2 {
+  from { background-color: #ff667d;
+    border-radius: 50%;
+    transform: translate(-50%,      -50%);
+  position:absolute;
+  top: 30%;
+  left: 70%;}
+  to{  background-color: white;
+    transform: translate(-50%, -50%);
+    position:absolute;
+  top: 70%;
+  left: 70%;}
+}
+.bl {
+  animation: move3 2s forwards;
+}
+@keyframes move3 {
+  from { background-color: white;
+    transform: translate(-50%,      -50%);
+  position:absolute;
+  top: 70%;
+  left: 70%;}
+  to{  background-color: #ff667d;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    position:absolute;
+  top: 70%;
+  left: 30%;}
+}
+.tl {
+  animation: move4 2s forwards;
+}
+@keyframes move4 {
+from {  background-color: #ff667d;
+  border-radius: 50%;
+  transform: translate(-50%,      -50%);
+  position:absolute;
+  top: 70%;
+  left: 30%;}
+  to{  background-color: #ff0000;
+    transform: translate(-50%, -50%);
+    position:absolute;
+  top: 30%;
+  left: 30%;}
+}

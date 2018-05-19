@@ -46,3 +46,38 @@ li a:hover {
     font-weight: bold;
     transition: 1s;
 }
+.dropbtn {
+    background-color: #ffd0cc;
+    color: #ff0000;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-family: "Harmattan", sans-serif;
+    border: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffd0cc;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #ff0000;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-family: "Harmattan", sans-serif;
+    display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ffd0cc;
+  font-weight: bold;
+  transition: 1s;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #ffd0cc;
+    font-weight: bold;
+    transition: 1s;
+}
