@@ -1,0 +1,48 @@
+body {
+  background-color: #ffd0cc;
+  color: #ff0000;
+}
+.quadrato{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+}
+.sinistra {
+  left: 0%;
+}
+.alto {
+  top: 0%;
+}
+.destra {
+  right: 0%;
+}
+.basso {
+  bottom: 0%;
+}
+#q1 {
+  background-color: #ff0000;
+}
+#q3 {
+  background-color: white;
+}
+#q2 {
+  background-color: #ff8080;
+}
+#q4 {
+  background-color: #ff0055;
+}
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.oscilla {
+  animation: oscillazione 5s linear infinite;
+}
+@keyframes oscillazione {
+  from{left: 50%;}
+  25%{left: 25%;}
+  50%{left: 50%;}
+  75%{left: 75%;}
+  100%{left: 50%;}
+}
