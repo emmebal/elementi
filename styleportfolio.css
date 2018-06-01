@@ -1,25 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Harmattan');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
 body {
     background-color: #ffd0cc;
     color: #ff0000;
 }
 a {
   text-decoration: underline;
-  font-family: "Harmattan", sans-serif;
-  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
   position: absolute;
   top: 2%;
   left: 2%;
   color: #ff0000;
 }
-h1 {
-  font-size: 2em;
-  max-width: 600px;
-  font-weight: normal;
-  margin: 0 auto 20px;
-  text-align: center;
-  font-family: 'Harmattan', sans-serif;
-}
+
 #ball1, #ball2, #ball3 {
   border: 10px solid #ff0000;
   background-color: #ff0000;
